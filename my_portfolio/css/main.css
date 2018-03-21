@@ -14,6 +14,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 .nav-link{
  margin-right: 1em !important;
 }
+
 .nav-link:hover{
  background: #f4f4f4;
  color: #f97300;
@@ -27,7 +28,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 /*header style*/
 .header {
- background-image: url('http://www.tokkoro.com/picsup/3032250-desk_laptop_mac_macbook_macbook-pro_monitor_smartphone_technology_tranmautritam_work_working.jpg');
+ background-image: url('https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
@@ -39,7 +40,7 @@ html,h1,h2,h3,h4,h5,h6,a{
  min-width: 100%;
  left: 0;
  top: 0;
- background: rgba(244, 244, 244, 0.79);
+ background: rgba(244, 244, 244, 0.80);
 }
 
 .description{
@@ -52,7 +53,7 @@ html,h1,h2,h3,h4,h5,h6,a{
  color:#F97300;
 }
 .description p{
- color:#666;
+ color:black;
  font-size: 20px;
  width: 50%;
  line-height: 1.5;
