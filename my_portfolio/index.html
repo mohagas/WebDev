@@ -1,120 +1,157 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		My Portfolio
-	</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Photo gallary</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
-<div class="container">
-	<body id="body">
-		<div class="row">
-			<!-- this is the navbar --> 
-			<div class="col-lg-12">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light navbarmargin">
-				  <a class="navbar-brand" href="#">
-				  	<i class="fa fa-home"></i>
-				</a>
 
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				    <ul class="navbar-nav mr-auto">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="#Projects">Projects<span class="sr-only">(current)</span></a>
-				      </li>
-				      <li class="nav-item active">
-				        <a class="nav-link" href="#">About</a>
-				      </li>
-				      <li class="nav-item active">
-				        <a class="nav-link" href="#Contact">Contact</a>
-				      </li>
-				    </ul>
-				  </div>
-				</nav>
-			</div>
-		</div>
-		<div class="row">
-			<!-- this row if for the headings and the social media icons --> 
+<body>
 
-			<div class="col-lg-12 text-center">	
-				<div class="img-circular"></div>
-				  <h1 class="display-4">Mohammad Gas</h1>
-				  <h2>Frontend Web Developer</h2>
-				  <hr class="my-4">
-				  <p class="lead">
-				    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-				  </p>
-			</div>
 
-			<div class="col-lg-12 text-center">
-				<!-- this is for the little social network icons with links --> 
-				<h4>Follow me on</h4>
-		            <a href="https://www.linkedin.com/in/mohammad-gas-220250119" class="fa fa-linkedin" target='_blank'></a>
-		            <a href="https://www.twitter.com" class="fa fa-twitter" target='_blank'></a>
-		            <a href="https://www.github.com/mohagas" class="fa fa-github" target='_blank'></a>
-			</div>		
-		</div>
-			
-		<div class="row">
-			<!-- this is for 3 column row for displaying some of my projects  -->
+	<nav class="navbar navbar-expand-lg fixed-top ">
+   <a class="navbar-brand" href="#">Home</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+<div class="collapse navbar-collapse " id="navbarSupportedContent">
+     <ul class="navbar-nav mr-4">
+       
+       <li class="nav-item">
+         <a class="nav-link" data-value="about" href="#">About</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" data-value="social" href="#">Social</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" data-value="contact" href="#">Contact</a>
+       </li>
+     </ul>
+     
+   </div>
+</nav>
 
-			<div class="col-md-4 col-sm-6 col-xs-6 mix-target web">
-              <figure>
-                <img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAeCAAAAJGQxNTVlYzE0LWIzOGQtNGFlYi1hMjRkLWM5MTZiYmZkMmZjZg.jpg" class="img img-thumbnail img-fluid" alt="Responsive image">
-                <figcaption>
-                  <a href="https://www.google.com" target="-_blank">
-                    <p>This goes to Google dot come for now.</p>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-        	<div class="col-md-4 col-sm-6 col-xs-6 mix-target web">
-              <figure>
-                <img src="https://startbootstrap.com/assets/img/templates/freelancer.jpg" class="img img-thumbnail img-fluid" alt="Responsive image">
-                <figcaption>
-                  <a href="http://www.getbootstrap.com" target="_blank">
-                    <p>
-                      This is going to the famous bootstrap library.
-                    </p>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web">
-              <figure>
-                <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2014/07/Responsive-HTML5-CSS3-Website-Template-for-Developers.png" class="img img-thumbnail img-fluid" alt="Responsive image">
-                <figcaption>
-                  <a href="https://www.freecodecamp.org" target="_blank">
-                    <p id="Projects">This is going to the free coding online bootcamp!!!!</p>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-		
-        <div class="row"></div>
-			<div class="col-sm-12 text-center">
-	        <h3>Want to discuss a project?</h3>
-	        <h4 id="Contact">Please contact me via
-	          <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
-	        </h4>
-			</div> 
-	      	
-	      	<div class="col-sm-12">
-	        <p class="text-center margin-top-30">
-	          &copy Copyright 2018
-	          <a href="#">Mohammad Gas</a>
-	        </p>
-	      </div>
-	    </div>
-
+<header class="header">
+    <div class="overlay">
+      <div class="container">
+        <div class="description">
+         <h3>
+          Hello ,Welcome To My officail Website
+          <p>
+          My name is Mohammad and I am a Front-End Web Developer. I have over 5+ years of experience in the tech industry and I 
+          have been part of many projects and contributed to many open source projects on the Web. I would love to help you with your next project. Send me your info below. </p>
+          <button class="btn btn-outline-secondary">See more</button>
+         </h3>
+        </div>
+      </div>
     </div>
+</header>
+
+<div class="about" id="about">
+  <div class="container">
+    <h1 class="text-center">About Me</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <img src="images/myself.jpg" class="img-fluid">
+        <span class="text-justify">Front-end Web Developer</span>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12 desc">
+        
+        <h3>Mohammad Gas</h3>
+        <p>
+          I am a motivated individual that enjoys doing web development. I feel very encouraged to help others and to put my skills to use so that I can help my clients achieve their goals. I am a Application Analyst currently working for a large healthcare SaaS company in Minneapolis, MN. I am currently training. 
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+     <h1 class="text-center">Portfolio</h1>
+ <div class="container">
+  <div class="row">
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://github.com/mohagas/ColorGameProject" target='_blank'><img src="images/colorGameProject_image.jpg" class="img-fluid"></a>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <img src="images/grayscalephotos_image.jpg" class="img-fluid">
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <img src="images/photoGalleryproject_image.jpg" class="img-fluid">
+   </div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+    <img src="images/toDoListProject_image.jpg" class="img-fluid">
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href=""><img src="images/Web-Developer-Skills-1.jpg" class="img-fluid"></a>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <img src="images/cat_dating_project.jpg" class="img-fluid">
+   </div>
+  </div>
+ </div>
+</div>
+
+
+<div class="social-media" id="social">
+  <div class="container">
+  <div class="col-lg-12 text-center">
+        <!-- this is for the little social network icons with links --> 
+        <h4>Follow me on</h4>
+                <a href="https://www.linkedin.com/in/mohammad-gas-220250119" target='_blank'><i class="fa fa-linkedin fa-3x"></i></a>
+                <a href="https://www.twitter.com" target='_blank'><i class="fa fa-twitter fa-3x"></i></a>
+                <a href="https://www.github.com/mohagas" target='_blank'><i class="fa fa-github fa-3x"></i></a>
+      </div>  
+      </div>
+</div>
+
+
+
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+ <div class="container">
+  <form>
+   <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <h1>Get in Touch</h1> 
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 right">
+       <div class="form-group">
+         <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+       </div>
+       <div class="form-group">
+         <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+       </div>
+       <div class="form-group">
+         <textarea class="form-control form-control-lg" placeholder="Message">
+          
+         </textarea>
+       </div>
+       <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+    </div>
+   </div>
+  </form>
+ </div>
+</div>
+
+<div class="col-sm-12">
+          <p class="text-center margin-top-30">
+            &copy Copyright 2018
+            <a href="#">Mohammad Gas</a>
+          </p>
+        </div>
+
+
+
 <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
 </body>
 </html>
