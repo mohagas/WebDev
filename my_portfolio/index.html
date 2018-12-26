@@ -40,9 +40,11 @@
        <li class="nav-item">
          <a class="nav-link" data-value="social" href="#">Social</a>
        </li>
+       <!--
        <li class="nav-item">
          <a class="nav-link" data-value="contact" href="#">Contact</a>
        </li>
+      -->
      </ul>
      
    </div>
@@ -131,41 +133,6 @@
 </div>
 
 
-
-<!-- Contact form -->
-<div class="contact-form" id="contact">
- <div class="container">
-  <form method="post" name="contact_form" action="contact-form-handler.php">
-   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <h1>Get in Touch</h1> 
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-12 right">
-       <div class="form-group">
-         <input type="text" class="form-control form-control-lg" placeholder="Name" name="name">
-       </div>
-       <div class="form-group">
-         <input type="email" class="form-control form-control-lg" placeholder="Email" name="email">
-       </div>
-       <div class="form-group">
-         <textarea class="form-control form-control-lg" placeholder="Message" name="message">
-          
-         </textarea>
-       </div>
-       <input type="submit" class="btn btn-secondary btn-block" value="Submit" name="">
-    </div>
-   </div>
-  </form>
- </div>
-</div>
-
-
-<script language="JavaScript">
-var frmvalidator = new Validator("contact_form");
-frmvalidator.addValidation("name", "req", "Please provide your name");
-frmvalidator.addValidation("email", "req", "Please provide your email");
-frmvalidator.addValidation("email", "email", "Please enter a valid email address");
-</script>
 
 <footer>
     <div class="col-sm-12">

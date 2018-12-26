@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carousel template</title>
+	<meta name="viewport" charset="utf-8" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+
+	<div id = "myCarousel" class="carousel slide">
+
+		<ol class="carousel-indicators">
+			<li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
+			<li data-target = "#myCarousel" data-slide-to = "1"></li>
+			<li data-target = "#myCarousel" data-slide-to = "2"></li>
+		</ol>
+
+		<div class="carousel-inner">
+			<div class="item mySlides active">
+				<img src="img/outdoor.jpg" alt="Outdoor" class="img-responsive">
+				<div class="carousel-caption">
+					<h3>Outdoor</h3>
+					<p>flkdjsfaldsfjal;kdsfjaasdfasdfasd</p>
+				</div>
+			</div>
+			<div class="item mySlides">
+				<img src="img/leaf.jpg" alt="Leaf" class="img-responsive">
+				<div class="carousel-caption">
+					<h3>Leaf</h3>
+					<p>dflkajdlfjakldjflajdsfl;kalakjsdfasdf</p>
+				</div>
+			</div>
+			<div class="item mySlides">
+				<img src="img/mountain.jpg" alt="Mountain" class="img-responsive">
+				<div class="carousel-caption">
+					<h3>Mountain</h3>
+					<p>lafdljalkfjalks;dfjaslkd;fjasdkl;fjsdlkfja</p>
+				</div>
+			</div>
+
+		</div>
+
+		<a href="#myCarousel" class="carousel-control left" data-slide ="prev">
+			<span class="icon-prev"></span>
+		</a>
+		<a href="#myCarousel" class="carousel-control right" data-slide ="next">
+			<span class="icon-next"></span>
+		</a>
+		
+	</div>
+
+
+	<script type="text/javascript">
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		    var i;
+		    var slides = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < slides.length; i++) {
+		        slides[i].style.display = "none"; 
+		    }
+		    slideIndex++;
+		    if (slideIndex > slides.length) {slideIndex = 1} 
+		    slides[slideIndex-1].style.display = "block"; 
+		    setTimeout(showSlides, 4500); // Change image every 2 seconds
+		}
+	</script>
+
+
+<!-- <script type="text/javascript" src="slideshow.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+</html>
